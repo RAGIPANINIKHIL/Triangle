@@ -1,0 +1,46 @@
+<h1>Triangle</h1>
+
+
+
+<input #text id="InputText" name="searchInputText" type="text" autofocus
+[(ngModel)]="triangleinput"  placeholder="{{Text}}" autocomplete="off" tabindex="1" />
+
+<button type="text" (click)="queryChanged(null)">
+        send
+        </button>
+<div class="inputclass">
+    <input id="InputText" name="searchInputText" type="text" autofocus
+    [(ngModel)]="inputs.point1"  placeholder="{{triangleText}}" autocomplete="off" tabindex="1" />
+</div>
+<div class="inputclass">
+    <input id="InputText" name="searchInputText" type="text" autofocus
+    [(ngModel)]="inputs.point2"  placeholder="{{triangleText}}" autocomplete="off" tabindex="1" />
+</div>
+<div class="inputclass">
+    <input id="InputText" name="searchInputText" type="text" autofocus
+    [(ngModel)]="inputs.point3"  placeholder="{{triangleText}}" autocomplete="off" tabindex="1" />
+</div>
+
+<button type="text" (click)="getTraingle()">
+send
+</button>
+
+
+<div *ngIf="triangleCordinates">
+    {{triangleCordinates.point1}}
+    {{triangleCordinates.point2}}
+    {{triangleCordinates.point3}}
+</div>
+
+<div *ngIf="triangle">
+    {{triangle}}
+</div>
+
+<div *ngIf="error">
+    {{errortext}}
+</div>
+
+
+
+
+
