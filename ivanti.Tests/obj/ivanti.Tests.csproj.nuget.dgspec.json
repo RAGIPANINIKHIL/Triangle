@@ -1,0 +1,168 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Ivanti\\Ivanti\\ivanti.Tests\\ivanti.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Ivanti\\Ivanti\\ivanti.Tests\\ivanti.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Ivanti\\Ivanti\\ivanti.Tests\\ivanti.Tests.csproj",
+        "projectName": "ivanti.Tests",
+        "projectPath": "C:\\Ivanti\\Ivanti\\ivanti.Tests\\ivanti.Tests.csproj",
+        "packagesPath": "C:\\Users\\rnikhil\\.nuget\\packages\\",
+        "outputPath": "C:\\Ivanti\\Ivanti\\ivanti.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rnikhil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.bwinparty.corp/artifactory/api/nuget/bpty-nuget-local": {},
+          "https://artifactory.bwinparty.corp/artifactory/api/nuget/nuget-internal": {},
+          "https://artifactory.bwinparty.corp/artifactory/api/nuget/nuget-public": {},
+          "https://artifactory.bwinparty.corp/artifactory/api/nuget/nuget-vanilla": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Ivanti\\Ivanti\\Ivanti\\Ivanti.csproj": {
+                "projectPath": "C:\\Ivanti\\Ivanti\\Ivanti\\Ivanti.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Ivanti\\Ivanti\\Ivanti\\Ivanti.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Ivanti\\Ivanti\\Ivanti\\Ivanti.csproj",
+        "projectName": "Ivanti",
+        "projectPath": "C:\\Ivanti\\Ivanti\\Ivanti\\Ivanti.csproj",
+        "packagesPath": "C:\\Users\\rnikhil\\.nuget\\packages\\",
+        "outputPath": "C:\\Ivanti\\Ivanti\\Ivanti\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rnikhil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.bwinparty.corp/artifactory/api/nuget/bpty-nuget-local": {},
+          "https://artifactory.bwinparty.corp/artifactory/api/nuget/nuget-internal": {},
+          "https://artifactory.bwinparty.corp/artifactory/api/nuget/nuget-public": {},
+          "https://artifactory.bwinparty.corp/artifactory/api/nuget/nuget-vanilla": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNet.WebPages": {
+              "target": "Package",
+              "version": "[3.2.7, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
